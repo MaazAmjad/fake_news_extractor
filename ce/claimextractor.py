@@ -68,7 +68,7 @@ dict_normalized_alternateName={
 "lupa-de olho":"MIXTURE",
 "lupa-exagerado":"MITURE",
 "lupa-verdadeiro":"TRUE",
-"lupa-contraditório":"MIXTURE",
+"lupa-contraditorio":"MIXTURE",
 }
 default_label="OTHER"
 
