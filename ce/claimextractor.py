@@ -60,6 +60,9 @@ dict_normalized_alternateName={
 
 "efarsas-falso":"FALSE",
 "efarsas-indefinido":"OTHER",
+
+"publica-verdadeiro":"TRUE",
+"publica-falso":"FALSE",
 }
 default_label="OTHER"
 
