@@ -63,6 +63,12 @@ dict_normalized_alternateName={
 
 "publica-verdadeiro":"TRUE",
 "publica-falso":"FALSE",
+
+"lupa-falso":"FALSE",
+"lupa-de olho":"MIXTURE",
+"lupa-exagerado":"MITURE",
+"lupa-verdadeiro":"TRUE",
+"lupa-contraditório":"MIXTURE",
 }
 default_label="OTHER"
 
