@@ -54,6 +54,9 @@ dict_normalized_alternateName={
 "truthorfiction-reported as fiction":"FALSE",
 "truthorfiction-mostly truth":"MIXTURE",
 "truthorfiction-farcical":"FALSE",
+
+"aosfatos-verdadeiro":"TRUE",
+"aosfatos-falso":"FALSE",
 }
 default_label="OTHER"
 
