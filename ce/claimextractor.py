@@ -57,6 +57,9 @@ dict_normalized_alternateName={
 
 "aosfatos-verdadeiro":"TRUE",
 "aosfatos-falso":"FALSE",
+
+"efarsas-falso":"FALSE",
+"efarsas-indefinido":"OTHER",
 }
 default_label="OTHER"
 

@@ -44,7 +44,10 @@ def get_all_claims(criteria):
                 refered_links = [l['href'] for l in soup2.find('section', {'id': 'mvp-content-main'}).findAll('a')]
                 claim_.setRefered_links(refered_links)
                 claim_.setClaim(soup2.find('strong').text)
-                claim_.setAlternateName(soup2.find("div", {'id': 'mvp-post-feat2-text'}).findAll('span')[0].text.lower())
+                if (soup2.find("div", {'id': 'mvp-post-feat2-text'}).findAll('span')[0].text.lower() == "falso"):
+                    claim_.setAlternateName("falso")
+                else:
+                    claim_.setAlternateName("indefinido")
                 claim_.setBody("\n".join([l.text for l in soup2.find('section', {'id': 'mvp-content-main'}).findAll('p')]))
                 claims.append(claim_.getDict())
         except:
