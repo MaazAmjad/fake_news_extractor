@@ -76,7 +76,7 @@ spacy_english = None
 spacy_germam = None
 
 def get_sites():
-	print current_sites
+	print current_websites
 
 
 def get_claims(criteria):
